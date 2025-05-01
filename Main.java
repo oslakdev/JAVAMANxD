@@ -14,10 +14,12 @@ public class Main{
 		} 
 
 		String[] tae = {"tae", "etyas", "sabalay", "wawa", "lala"}; 
-		System.out.println(tae.length); System.out.println(tae[4]); 
+		System.out.println(tae.length); 
+		System.out.println(tae[4]); 
 	/*for(int i=0; i<tae.length; i++){ System.out.println(i + ": " + tae[i]); }*/
 	//end for loop 
-		for( String i : tae ){ System.out.println( i); 
+		for( String i : tae ){ 
+			System.out.println( i); 
 		} 
 		String pangalan[] = new String[2]; 
 		pangalan[0] = "index 0"; 
